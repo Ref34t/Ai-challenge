@@ -1,0 +1,241 @@
+# Python project configuration following best practices
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai-story-generator"
+dynamic = ["version"]
+description = "Production-ready AI story generator using Hugging Face transformers"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "AI Portfolio Challenge", email = "ai-portfolio@example.com" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "transformers>=4.30.2",
+    "torch>=2.0.1",
+    "tokenizers>=0.13.3",
+    "fastapi>=0.100.1",
+    "uvicorn[standard]>=0.23.1",
+    "streamlit>=1.25.0",
+    "pydantic>=2.0.3",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "reportlab>=4.0.4",
+    "tqdm>=4.65.0",
+    "stqdm>=0.0.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.7.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+    "mypy>=1.4.1",
+    "pre-commit>=3.3.0",
+]
+openai = [
+    "openai>=0.27.8",
+]
+monitoring = [
+    "psutil>=5.9.0",
+    "prometheus-client>=0.17.0",
+]
+testing = [
+    "httpx>=0.24.0",
+    "pytest-mock>=3.11.0",
+    "factory-boy>=3.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ref34t/Ai-challenge"
+Repository = "https://github.com/Ref34t/Ai-challenge"
+Documentation = "https://github.com/Ref34t/Ai-challenge/tree/main/10-Week-AI-Portfolio-Challenge/week-01"
+Issues = "https://github.com/Ref34t/Ai-challenge/issues"
+
+[project.scripts]
+story-generator = "src.run_local:main"
+
+[tool.hatch.version]
+path = "src/__init__.py"
+
+# Black configuration
+[tool.black]
+line-length = 88
+target-version = ['py39']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+# isort configuration
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+known_first_party = ["src"]
+known_third_party = ["fastapi", "streamlit", "transformers", "torch", "pydantic"]
+
+# Flake8 configuration
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "E266", "E501", "W503", "F403", "F401"]
+max-complexity = 18
+select = ["B", "C", "E", "F", "W", "T4", "B9"]
+exclude = [
+    ".git",
+    "__pycache__",
+    "docs/source/conf.py",
+    "old",
+    "build",
+    "dist",
+    ".venv",
+    "venv",
+]
+
+# MyPy configuration
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+
+[[tool.mypy.overrides]]
+module = [
+    "transformers.*",
+    "torch.*",
+    "streamlit.*",
+    "reportlab.*",
+    "stqdm.*",
+]
+ignore_missing_imports = true
+
+# Pytest configuration
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--cov=src",
+    "--cov-branch",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+    "--cov-report=xml",
+]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+    "gpu: marks tests that require GPU",
+    "openai: marks tests that require OpenAI API key",
+]
+
+# Coverage configuration
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "*/tests/*",
+    "*/test_*",
+    "*/__pycache__/*",
+    "*/.*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
+
+# Pre-commit hooks configuration
+[tool.pre-commit]
+repos = [
+    {
+        repo = "https://github.com/pre-commit/pre-commit-hooks",
+        rev = "v4.4.0",
+        hooks = [
+            { id = "trailing-whitespace" },
+            { id = "end-of-file-fixer" },
+            { id = "check-yaml" },
+            { id = "check-added-large-files" },
+            { id = "check-merge-conflict" },
+            { id = "check-toml" },
+            { id = "debug-statements" },
+        ]
+    },
+    {
+        repo = "https://github.com/psf/black",
+        rev = "23.7.0",
+        hooks = [
+            { id = "black" }
+        ]
+    },
+    {
+        repo = "https://github.com/pycqa/isort",
+        rev = "5.12.0",
+        hooks = [
+            { id = "isort" }
+        ]
+    },
+    {
+        repo = "https://github.com/pycqa/flake8",
+        rev = "6.0.0",
+        hooks = [
+            { id = "flake8" }
+        ]
+    },
+    {
+        repo = "https://github.com/pre-commit/mirrors-mypy",
+        rev = "v1.4.1",
+        hooks = [
+            { id = "mypy", additional_dependencies = ["types-requests"] }
+        ]
+    },
+]

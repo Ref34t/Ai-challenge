@@ -1,0 +1,120 @@
+{
+  "last_updated": "2025-07-05",
+  "tracking_period": "2025-W27",
+  "total_jobs_analyzed": 2,
+  
+  "skill_frequency": {
+    "python": {
+      "count": 2,
+      "percentage": 100,
+      "job_ids": ["whatsapp-chatbot-outdoor-gear", "ai-influencer-automation-system"],
+      "trend": "stable"
+    },
+    "api_integration": {
+      "count": 2,
+      "percentage": 100,
+      "job_ids": ["whatsapp-chatbot-outdoor-gear", "ai-influencer-automation-system"],
+      "trend": "stable"
+    },
+    "chatbot_development": {
+      "count": 1,
+      "percentage": 50,
+      "job_ids": ["whatsapp-chatbot-outdoor-gear"],
+      "trend": "new"
+    },
+    "machine_learning": {
+      "count": 1,
+      "percentage": 50,
+      "job_ids": ["ai-influencer-automation-system"],
+      "trend": "new"
+    },
+    "stable_diffusion": {
+      "count": 1,
+      "percentage": 50,
+      "job_ids": ["ai-influencer-automation-system"],
+      "trend": "new"
+    },
+    "wordpress": {
+      "count": 1,
+      "percentage": 50,
+      "job_ids": ["whatsapp-chatbot-outdoor-gear"],
+      "trend": "new"
+    },
+    "woocommerce": {
+      "count": 1,
+      "percentage": 50,
+      "job_ids": ["whatsapp-chatbot-outdoor-gear"],
+      "trend": "new"
+    }
+  },
+  
+  "skill_categories": {
+    "programming_languages": {
+      "python": 2,
+      "javascript": 0,
+      "php": 0
+    },
+    "frameworks_apis": {
+      "api_integration": 2,
+      "rest_api": 1,
+      "whatsapp_api": 1,
+      "gpt_api": 1
+    },
+    "ai_ml": {
+      "machine_learning": 1,
+      "chatbot_development": 1,
+      "stable_diffusion": 1,
+      "nlp": 1,
+      "lora_training": 1
+    },
+    "web_development": {
+      "wordpress": 1,
+      "woocommerce": 1,
+      "flask": 0,
+      "django": 0
+    },
+    "cloud_services": {
+      "cloud_gpu": 1,
+      "runpod": 1,
+      "lambda_labs": 1
+    }
+  },
+  
+  "your_skill_match": {
+    "strong_matches": [
+      "python",
+      "api_integration", 
+      "wordpress",
+      "woocommerce"
+    ],
+    "learning_opportunities": [
+      "chatbot_development",
+      "whatsapp_api",
+      "gpt_api",
+      "nlp"
+    ],
+    "long_term_goals": [
+      "machine_learning",
+      "stable_diffusion",
+      "cloud_gpu"
+    ]
+  },
+  
+  "market_insights": {
+    "hot_combinations": [
+      "python + api_integration",
+      "wordpress + ai_integration",
+      "chatbot + ecommerce"
+    ],
+    "emerging_trends": [
+      "ai_chatbots_for_ecommerce",
+      "wordpress_ai_plugins",
+      "customer_service_automation"
+    ],
+    "your_advantages": [
+      "wordpress_expertise_rare_in_ai",
+      "ecommerce_domain_knowledge",
+      "api_integration_experience"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "collection_date": "2025-07-05",
+  "week": "2025-W27", 
+  "jobs": [
+    {
+      "id": "whatsapp-chatbot-outdoor-gear",
+      "title": "Experienced WhatsApp AI Chatbot Developer (with Website Data Integration)",
+      "posted_time": "47 minutes ago",
+      "budget": "$20-25/hour",
+      "budget_type": "hourly",
+      "timeline": "1-3 months",
+      "commitment": "<30 hrs/week",
+      "experience_level": "Intermediate",
+      "description": "We are a leading outdoor gear company in Malaysia. We receive a high volume of customer enquiries via WS and want to automate our responses using an AI-powered WS chatbot. (and in Malay, if possible)",
+      "requirements": [
+        "WhatsApp chatbot that can automatically reply 24/7",
+        "AI/NLP to understand and respond to queries (product info, order status, FAQs)",
+        "Fetch latest data from website (product details, pricing, stock, promotions)",
+        "Easily trainable/updatable as website content changes",
+        "Escalate to human agent if needed"
+      ],
+      "technical_requirements": [
+        "Proven experience building WS chatbots",
+        "AI/NLP engine (Dialogflow, GPT, or similar)",
+        "Ability to scrape or sync data from website (WordPress/WooCommerce)"
+      ],
+      "nice_to_have": [
+        "Experience with e-commerce chatbots",
+        "Multilingual support (English, Malay)",
+        "Analytics and reporting dashboard"
+      ],
+      "mandatory_skills": ["API", "Python", "Chatbot Development", "API Integration"],
+      "client_info": {
+        "location": "Malaysia, Ipoh",
+        "rating": "5.0/5",
+        "total_reviews": 36,
+        "jobs_posted": 99,
+        "hire_rate": "46%",
+        "total_spent": "$8.2K",
+        "avg_hourly_rate": "$4.26",
+        "hours_worked": 1689,
+        "member_since": "May 5, 2016",
+        "open_jobs": 6,
+        "active_hires": 2
+      },
+      "competition": {
+        "proposals": "5-10",
+        "interviewing": 0,
+        "invites_sent": 0
+      },
+      "category": "ai_ml",
+      "subcategory": "chatbots",
+      "industry": "e-commerce",
+      "specialization": "customer_service_automation",
+      "url": "upwork.com/job/whatsapp-chatbot",
+      "analysis": {
+        "fit_score": 8,
+        "interest_score": 8,
+        "competitiveness": 7,
+        "opportunity_score": 8.5,
+        "priority": "HIGH",
+        "decision": "APPLY",
+        "skill_gaps": ["WhatsApp API", "Chatbot frameworks"],
+        "advantages": ["WordPress/WooCommerce expertise", "API integration", "Python", "E-commerce experience"],
+        "learning_time": "1-2 weeks",
+        "success_probability": "75-85%"
+      }
+    },
+    {
+      "id": "ai-influencer-automation-system",
+      "title": "Build Cloud-based AI Influencer Automation System – LoRA Training, Stable Diffusion, Persona Engine",
+      "posted_time": "21 minutes ago",
+      "budget": "$5,000-8,000",
+      "budget_type": "fixed",
+      "timeline": "Ongoing project",
+      "experience_level": "Expert",
+      "description": "Build an AI Influencer Automation System, running initially on cloud GPUs. Generate photorealistic, ultra-consistent AI Avatars at scale — up to 20–30 personas, producing large volumes of images, captions, and optionally voice & video clips.",
+      "requirements": [
+        "LoRA/DreamBooth training cloud fine-tuning pipelines",
+        "Stable Diffusion batch generation with high-volume rendering",
+        "Persona Profile Engine with JSON/YAML configs",
+        "Prompt Generation (GPT or local LLM)",
+        "Auto-Caption Generator",
+        "Voice Clone (Optional) - TTS integration",
+        "Short Video Clips (Optional) - SadTalker integration",
+        "Web-Based UI - Cloud dashboard",
+        "Backend Automation & Job Queue"
+      ],
+      "technical_requirements": [
+        "Runs on cloud GPUs (RunPod, Lambda Labs, etc.)",
+        "Fully documented and scalable",
+        "GPT/TTS via API",
+        "Stable for high volumes (10k+ images)",
+        "NSFW support"
+      ],
+      "mandatory_skills": ["Python", "Machine Learning", "Stable Diffusion"],
+      "preferred_skills": ["LoRA training", "DreamBooth", "Cloud GPU services", "TTS", "Deepfake"],
+      "client_info": {
+        "location": "Germany, Kruen",
+        "rating": "5.0/5",
+        "total_reviews": 24,
+        "jobs_posted": 33,
+        "hire_rate": "100%",
+        "total_spent": "$3.1K",
+        "active_hires": 0,
+        "member_since": "Jul 24, 2019"
+      },
+      "competition": {
+        "proposals": "<5",
+        "interviewing": 0
+      },
+      "category": "ai_ml",
+      "subcategory": "machine_learning",
+      "industry": "adult_content",
+      "specialization": "image_generation",
+      "analysis": {
+        "fit_score": 3,
+        "interest_score": 6,
+        "competitiveness": 2,
+        "opportunity_score": 1,
+        "priority": "LOW",
+        "decision": "SKIP",
+        "skill_gaps": ["LoRA/DreamBooth", "Stable Diffusion", "Cloud GPU", "ML pipelines"],
+        "red_flags": ["Adult content", "Complex ML systems", "Ethical concerns"],
+        "learning_time": "6+ months",
+        "success_probability": "5-15%"
+      }
+    }
+  ]
+}

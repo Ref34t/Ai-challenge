@@ -1,0 +1,30 @@
+# Week 1: Story Generator Requirements
+# Core ML/AI libraries (FREE)
+transformers==4.30.2
+torch==2.0.1
+tokenizers==0.13.3
+
+# Web frameworks (FREE)
+streamlit==1.25.0
+fastapi==0.100.1
+uvicorn==0.23.1
+
+# Utilities (FREE)
+requests==2.31.0
+python-dotenv==1.0.0
+pydantic==2.0.3
+
+# Optional: OpenAI for advanced features (USER PROVIDES KEY)
+openai==0.27.8
+
+# Development tools (FREE)
+pytest==7.4.0
+black==23.7.0
+flake8==6.0.0
+
+# PDF generation for story export (FREE)
+reportlab==4.0.4
+
+# Progress bars and UI enhancements (FREE)
+tqdm==4.65.0
+stqdm==0.0.5

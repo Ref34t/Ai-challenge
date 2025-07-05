@@ -1,0 +1,141 @@
+{
+  "collection_date": "2025-07-05",
+  "week": "2025-W27", 
+  "batch": 3,
+  "jobs": [
+    {
+      "id": "ai-development-strategist-marketing",
+      "title": "AI Development Strategist (Marketing & Business Systems Focus)",
+      "posted_time": "2 weeks ago",
+      "budget": "$25-65/hour",
+      "budget_type": "hourly",
+      "timeline": "6+ months",
+      "commitment": ">30 hrs/week",
+      "experience_level": "Expert",
+      "contract_type": "Contract-to-hire opportunity",
+      "location": "Remote (Worldwide)",
+      "industry": "Marketing & Advertising Agency",
+      "niche": "Senior Living Industry",
+      "description": "Forward-thinking AI Development Strategist to help push boundaries in senior living marketing and business optimization. Not just building prompts or connecting APIs; proactive partner to rethink, retool, and reimagine how AI can drive innovation.",
+      "company_info": {
+        "name": "CCR Growth",
+        "focus": "Full-service agency exclusive to senior living industry",
+        "mission": "Help senior living providers fill rooms faster, connect with families, streamline operations"
+      },
+      "application_requirements": {
+        "loom_video": "3-5 minutes required",
+        "video_content": [
+          "About yourself, location, hobbies",
+          "Why interested in company/job",
+          "What makes you a good fit",
+          "Personal goal"
+        ]
+      },
+      "key_responsibilities": [
+        "Develop, test, optimize AI-powered systems and automations",
+        "Build custom AI tools (GPTs, scripts, workflows) for senior living marketing",
+        "Collaborate with marketing strategists, media buyers, operations",
+        "Recommend and integrate AI platforms (ChatGPT, Claude, Midjourney, etc.)",
+        "Train internal teams and clients on AI tools",
+        "Stay ahead of AI trends, identify opportunities"
+      ],
+      "desired_skills": [
+        "Advanced proficiency with generative AI platforms",
+        "Background in marketing operations or performance marketing",
+        "Experience building AI-powered tools or plugins",
+        "Ability to distill complex tech for non-technical teams",
+        "Marketing agency experience (major plus)",
+        "Senior living industry understanding (bonus)"
+      ],
+      "mandatory_skills": [
+        "Advertising Automation",
+        "CRM Automation", 
+        "Social Media Marketing Automation",
+        "AI Agent Development",
+        "AI App Development"
+      ],
+      "technical_requirements": [
+        "ChatGPT API, LangChain, Make, Zapier",
+        "AI-powered tools/plugins development",
+        "Marketing operations automation",
+        "Business process optimization"
+      ],
+      "screening_questions": [
+        "Custom GPT or AI agent using OpenAI API/LangChain built",
+        "AI-powered workflows for content creation/lead qualification/CRM",
+        "Manual process identified and solved with AI",
+        "AI system with measurable gains built",
+        "Agency/startup/fast-paced environment experience"
+      ],
+      "client_info": {
+        "location": "United States, Carmel",
+        "rating": "5.0/5",
+        "total_reviews": 19,
+        "jobs_posted": 38,
+        "hire_rate": "61%",
+        "total_spent": "$155K",
+        "avg_hourly_rate": "$11.76",
+        "hours_worked": 12666,
+        "member_since": "Nov 24, 2015",
+        "open_jobs": 2,
+        "active_hires": 3
+      },
+      "competition": {
+        "proposals": "5-10",
+        "last_viewed": "last week",
+        "interviewing": 4,
+        "invites_sent": 0
+      },
+      "preferred_qualifications": {
+        "talent_type": "Independent",
+        "job_success_score": "At least 90%",
+        "english_level": "Native or Bilingual",
+        "preferred_locations": ["South Africa", "Philippines"]
+      },
+      "category": "ai_ml",
+      "subcategory": "ai_strategy_consulting",
+      "industry": "marketing_agency",
+      "specialization": "senior_living_niche",
+      "url": "upwork.com/job/ai-development-strategist",
+      "analysis": {
+        "fit_score": 4,
+        "interest_score": 9,
+        "competitiveness": 3,
+        "opportunity_score": 5,
+        "priority": "MEDIUM",
+        "decision": "CONSIDER WITH PREPARATION",
+        "skill_gaps": [
+          "Advanced AI platform proficiency",
+          "Marketing operations background", 
+          "AI tool/plugin development",
+          "Agency experience",
+          "Senior living industry knowledge",
+          "LangChain framework",
+          "Marketing automation platforms"
+        ],
+        "advantages": [
+          "Python programming skills",
+          "API integration experience",
+          "Business process understanding",
+          "Client collaboration experience",
+          "Learning ability and adaptability"
+        ],
+        "concerns": [
+          "Significant skill gaps in core requirements",
+          "No marketing agency experience",
+          "No AI development portfolio",
+          "High competition (expert level)",
+          "Preferred locations don't include Egypt"
+        ],
+        "opportunities": [
+          "Excellent client with high budget",
+          "Contract-to-hire potential",
+          "Growing AI strategy market",
+          "High hourly rate range"
+        ],
+        "learning_time": "3-6 months intensive",
+        "success_probability": "25-35%"
+      }
+    }
+  ]
+}

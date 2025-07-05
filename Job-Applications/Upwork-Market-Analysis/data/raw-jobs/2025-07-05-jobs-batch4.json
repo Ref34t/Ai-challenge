@@ -1,0 +1,212 @@
+{
+  "collection_date": "2025-07-05",
+  "week": "2025-W27", 
+  "batch": 4,
+  "jobs": [
+    {
+      "id": "ai-search-optimization-specialist-ecommerce",
+      "title": "AI Search Optimization Specialist - E-commerce Platform",
+      "posted_time": "1 hour ago",
+      "budget": "Not specified",
+      "budget_type": "hourly",
+      "timeline": "3-6 months",
+      "commitment": ">30 hrs/week",
+      "experience_level": "Expert",
+      "location": "Worldwide",
+      "description": "Seeking AI Search Optimization Specialist who understands how Large Language Models (LLMs) discover, process, and cite information. Drive content strategy for next generation of search - where AI systems like ChatGPT, Claude, Gemini, and Perplexity increasingly influence customer discovery.",
+      "mission": "Develop and implement comprehensive AI search optimization strategies that position platform as authoritative source AI systems reference and recommend",
+      "responsibilities": {
+        "ai_citation_optimization": {
+          "percentage": 35,
+          "tasks": [
+            "Analyze AI system behavior for source discovery and citation",
+            "Optimize content structure for AI consumption and citation patterns",
+            "Create citation-worthy resources that AI systems reference as authoritative",
+            "Monitor brand mentions across all major AI platforms and tools"
+          ]
+        },
+        "content_strategy_ai_discovery": {
+          "percentage": 30,
+          "tasks": [
+            "Develop AI-first content frameworks optimized for LLM training data inclusion",
+            "Structure information in formats AI systems prefer and understand",
+            "Create comprehensive knowledge bases that serve as AI training sources",
+            "Design question-answer content that addresses AI search queries"
+          ]
+        },
+        "ai_search_result_monitoring": {
+          "percentage": 20,
+          "tasks": [
+            "Track brand appearance in ChatGPT, Claude, Gemini, Perplexity responses",
+            "Monitor competitor positioning in AI search results and recommendations",
+            "Analyze AI response patterns to identify optimization opportunities",
+            "Report on AI search performance across multiple platforms"
+          ]
+        },
+        "emerging_technology_integration": {
+          "percentage": 15,
+          "tasks": [
+            "Research new AI search platforms and early-adoption opportunities",
+            "Test optimization strategies across different AI models and interfaces",
+            "Develop proprietary tracking methods for AI search performance",
+            "Stay current with AI search evolution and platform updates"
+          ]
+        }
+      },
+      "required_skills": {
+        "essential_ai_llm": [
+          "2+ years working directly with LLMs in professional capacity",
+          "Deep understanding of how AI systems process and cite information",
+          "Prompt engineering expertise for optimizing AI interactions",
+          "Experience with AI APIs and integration methodologies",
+          "Knowledge of AI training data preferences and structures"
+        ],
+        "technical_requirements": [
+          "Advanced prompt engineering skills across multiple AI platforms",
+          "Data analysis capabilities for AI response pattern recognition",
+          "API integration experience for monitoring and tracking systems",
+          "Understanding of natural language processing and information retrieval",
+          "Familiarity with vector databases and semantic search technologies"
+        ],
+        "strategic_thinking": [
+          "Content strategy development for emerging technologies",
+          "Competitive analysis in rapidly evolving landscapes",
+          "Performance measurement for non-traditional metrics",
+          "Cross-platform optimization across diverse AI systems"
+        ],
+        "proven_track_record": [
+          "Portfolio demonstrating AI search optimization projects",
+          "Case studies showing improved AI system citations or mentions",
+          "Experience building content for AI consumption",
+          "Results from AI-first content strategies"
+        ]
+      },
+      "disqualifiers": [
+        "Only traditional SEO experience without AI/LLM background",
+        "Unfamiliar with current AI tools and capabilities",
+        "Don't understand prompt engineering or AI system behavior",
+        "Not comfortable with emerging, rapidly-changing technology",
+        "Prefer established practices over experimental approaches"
+      ],
+      "ideal_candidate": {
+        "background_options": [
+          "Former AI researcher or data scientist with content optimization experience",
+          "Digital marketer who's pioneered AI-first strategies",
+          "Content strategist with deep LLM integration experience",
+          "SEO professional who's successfully transitioned to AI search optimization"
+        ],
+        "mindset": [
+          "Experimental approach to testing and learning",
+          "Data-driven methodology with comfort in ambiguous metrics",
+          "Future-focused thinking about search evolution",
+          "Collaborative attitude for cross-functional integration"
+        ],
+        "technical_expertise": [
+          "Multiple AI platform familiarity",
+          "Programming/scripting ability for automation",
+          "Understanding of machine learning concepts",
+          "Experience with semantic search and vector-based systems"
+        ]
+      },
+      "application_requirements": {
+        "cover_letter": [
+          "Experience with AI/LLM optimization projects",
+          "Understanding of how AI systems discover and cite content",
+          "One specific strategy for improving AI search visibility"
+        ],
+        "portfolio_case_studies": [
+          "2-3 projects involving AI system optimization or LLM integration",
+          "Demonstrated results from AI-first content strategies",
+          "Examples of content optimized for AI consumption",
+          "Metrics or tracking methods developed for AI performance"
+        ],
+        "technical_demonstration": [
+          "AI prompt sequence for optimizing content discoverability",
+          "Content structure framework designed for AI citation",
+          "Monitoring system concept for tracking AI search performance"
+        ],
+        "experience_questions": [
+          "How do you approach optimizing content for different AI models?",
+          "What methods do you use to track and measure AI search performance?",
+          "How do you stay current with rapidly evolving AI search landscape?"
+        ]
+      },
+      "mandatory_skills": [
+        "Content SEO",
+        "AI Search", 
+        "LLM Prompt",
+        "Search Engine Optimization"
+      ],
+      "client_info": {
+        "location": "United Kingdom, England",
+        "rating": "4.6/5",
+        "total_reviews": 108,
+        "jobs_posted": 348,
+        "hire_rate": "62%",
+        "total_spent": "$40K",
+        "avg_hourly_rate": "$9.56",
+        "hours_worked": 160,
+        "member_since": "Nov 8, 2015",
+        "open_jobs": 5,
+        "active_hires": 42,
+        "company_type": "Sales & Marketing",
+        "company_size": "Small (2-9 people)"
+      },
+      "competition": {
+        "proposals": "Less than 5",
+        "last_viewed": "7 minutes ago",
+        "interviewing": 1,
+        "invites_sent": 0
+      },
+      "category": "ai_ml",
+      "subcategory": "ai_search_optimization",
+      "industry": "ecommerce",
+      "specialization": "llm_content_optimization",
+      "url": "upwork.com/job/ai-search-optimization-specialist",
+      "analysis": {
+        "fit_score": 2,
+        "interest_score": 9,
+        "competitiveness": 2,
+        "opportunity_score": 3,
+        "priority": "LOW",
+        "decision": "SKIP - USE AS LEARNING TARGET",
+        "skill_gaps": [
+          "2+ years professional LLM experience",
+          "AI search optimization portfolio",
+          "Advanced prompt engineering across platforms",
+          "Vector databases and semantic search",
+          "AI system behavior analysis",
+          "Content optimization for AI consumption",
+          "Proprietary AI tracking methods"
+        ],
+        "advantages": [
+          "API integration experience",
+          "Content strategy understanding",
+          "SEO fundamentals knowledge",
+          "Technical background for learning"
+        ],
+        "red_flags": [
+          "Requires 2+ years LLM experience (you have none)",
+          "Need portfolio of AI optimization projects",
+          "Expert-level prompt engineering required",
+          "Must understand vector databases and semantic search",
+          "Client's low average rate ($9.56) vs expert requirements"
+        ],
+        "market_intelligence": [
+          "AI Search Optimization is emerging high-value field",
+          "Less than 5 proposals indicates very specialized niche",
+          "Companies moving beyond traditional SEO to AI-first strategies",
+          "Future opportunity as AI search becomes mainstream"
+        ],
+        "learning_opportunities": [
+          "Study how AI systems cite and reference content",
+          "Learn prompt engineering for content optimization",
+          "Understand LLM training data preferences",
+          "Explore vector databases and semantic search"
+        ],
+        "timeline_to_competitive": "8-12 months intensive learning",
+        "success_probability": "15-25%"
+      }
+    }
+  ]
+}

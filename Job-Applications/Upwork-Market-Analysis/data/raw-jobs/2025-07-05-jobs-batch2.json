@@ -1,0 +1,111 @@
+{
+  "collection_date": "2025-07-05",
+  "week": "2025-W27", 
+  "batch": 2,
+  "jobs": [
+    {
+      "id": "ai-voice-agent-receptionist-partnership",
+      "title": "AI Voice Agent Receptionist | AI & Automations Expert| LARGE Business Partnership Opportunity",
+      "posted_time": "51 minutes ago",
+      "budget": "Not specified",
+      "budget_type": "hourly",
+      "timeline": "6+ months",
+      "commitment": ">30 hrs/week",
+      "experience_level": "Expert",
+      "contract_type": "Contract-to-hire opportunity",
+      "description": "Looking to work with 1x person who lives in the UK/EU, speaks fluent English, and has plenty of experience building AI Voice Agents for businesses, as well as using tools such as n8n/Make to setup the automations around this. Looking to partner up to build out a fully scalable AI Voice Agent business.",
+      "partnership_details": {
+        "client_brings": [
+          "5+ years Sales + Marketing Experience",
+          "Digital Marketing agency experience", 
+          "£88,000+ worth of deals closed",
+          "£50,000+ per month client ad spend managed",
+          "Fiverr automation gigs",
+          "Computer science/business education"
+        ],
+        "profit_split": "50/50",
+        "commitment": "Daily collaboration",
+        "growth_plan": "Scale up quickly"
+      },
+      "requirements": [
+        "Must live in the UK/EU",
+        "Fluent English speaker", 
+        "Experience building AI Voice Agents for businesses",
+        "Experience with n8n/Make automation tools",
+        "Handle technical side while client handles sales/marketing"
+      ],
+      "mandatory_skills": [
+        "AI Chatbot",
+        "Chatbot Development", 
+        "Chatbot Integration",
+        "Customer Service Chatbot",
+        "GPT Chatbot",
+        "ai voice",
+        "voice ai", 
+        "Artificial Intelligence",
+        "Zapier",
+        "Make.com"
+      ],
+      "location_requirements": ["Europe", "United Kingdom"],
+      "client_info": {
+        "location": "United Kingdom, London",
+        "rating": "5.0/5",
+        "total_reviews": 27,
+        "jobs_posted": 81,
+        "hire_rate": "66%",
+        "total_spent": "$3.3K", 
+        "avg_hourly_rate": "$8.02",
+        "hours_worked": 26,
+        "member_since": "Jun 21, 2023",
+        "open_jobs": 28,
+        "active_hires": 21
+      },
+      "competition": {
+        "proposals": "10-15",
+        "last_viewed": "29 minutes ago",
+        "interviewing": 7,
+        "invites_sent": 30,
+        "unanswered_invites": 24
+      },
+      "category": "ai_ml",
+      "subcategory": "voice_ai",
+      "industry": "business_services",
+      "specialization": "voice_agents_automation",
+      "url": "upwork.com/job/ai-voice-agent-partnership",
+      "analysis": {
+        "fit_score": 4,
+        "interest_score": 8,
+        "competitiveness": 3,
+        "opportunity_score": 3.5,
+        "priority": "LOW-MEDIUM",
+        "decision": "CONSIDER WITH CAUTION",
+        "red_flags": [
+          "Location requirement (UK/EU only)",
+          "Partnership structure (equity vs payment)",
+          "Low average hourly rate ($8.02)",
+          "Very high activity (28 open jobs, 21 active)",
+          "Revenue sharing model risk"
+        ],
+        "skill_gaps": [
+          "AI Voice Agents",
+          "Voice AI systems", 
+          "n8n automation",
+          "Make.com advanced features"
+        ],
+        "advantages": [
+          "Automation experience (Zapier knowledge)",
+          "API integration skills",
+          "Business understanding"
+        ],
+        "concerns": [
+          "Geographic restriction",
+          "Partnership vs employment",
+          "Client's low spending history",
+          "Unclear equity structure"
+        ],
+        "learning_time": "2-3 months",
+        "success_probability": "30-40%"
+      }
+    }
+  ]
+}

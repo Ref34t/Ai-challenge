@@ -1,0 +1,40 @@
+{
+  "job_batch": {
+    "date": "2025-07-05",
+    "week": "2025-W27",
+    "jobs": [
+      {
+        "id": "unique_job_id",
+        "title": "Job Title Here",
+        "description": "Full job description text...",
+        "budget": "$500-1000" ,
+        "timeline": "2 weeks",
+        "client_info": {
+          "location": "USA",
+          "history": "New client / Established client",
+          "total_spent": "$5,000+",
+          "jobs_posted": "10+"
+        },
+        "competition": {
+          "proposals": 25,
+          "hired_rate": "80%"
+        },
+        "url": "https://upwork.com/jobs/...",
+        "posted_date": "2025-07-05",
+        "notes": "Any additional observations"
+      }
+    ]
+  },
+  "instructions": {
+    "how_to_use": "Copy this template and fill in actual job data",
+    "required_fields": ["id", "title", "description", "budget", "proposals"],
+    "optional_fields": ["timeline", "client_info", "competition", "url", "notes"],
+    "tips": [
+      "Use unique IDs for each job",
+      "Include full job descriptions for better analysis",
+      "Budget should be in format: $X-Y or $X/hour or 'Fixed price: $X'",
+      "Proposals = number of freelancers who bid",
+      "Client history: New (<5 jobs) vs Established (5+ jobs)"
+    ]
+  }
+}
